@@ -1,3 +1,6 @@
+import javax.swing.*;
+
+
 public class LemonadeStand {
 
     /*
@@ -16,6 +19,15 @@ public class LemonadeStand {
      */
 
     public static void main(String[] args) {
+        double sixTeen = Double.parseDouble(JOptionPane.showInputDialog("How many 16 oz. cups were sold?"));
+    doubel
+
+        price(sixTeen, twenty);
+    }
+
+    public static void price(double sixTeen, double twenty){
+        double priceSixteen = sixTeen * 0.50;
+        double priceTwenty = twenty * 0.99;
 
     }
 
