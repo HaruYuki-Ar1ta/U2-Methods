@@ -27,7 +27,7 @@ public class TrianglePerimeter {
       double distance2 = distance(x2, y2, x3, y3);
       double distance3 = distance(x1, y1, x3, y3);
 
-      double perimeter = trianglePerim(distance1, distance2, distance3);
+      double perimeter = trianglePerime(distance1, distance2, distance3);
 
       display(perimeter);
     }
@@ -42,7 +42,7 @@ public class TrianglePerimeter {
         return Math.sqrt(Math.pow(x2 - x1 , 2) + Math.pow(y2 - y1, 2));
     }
 
-    public static double trianglePerim(double side1, double side2, double side3){
+    public static double trianglePerime(double side1, double side2, double side3){
         return side1 + side2 + side3;
     }
 
