@@ -23,6 +23,7 @@ public class SimpleFrame {
 
     private static class ButtonListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+
             JOptionPane.showMessageDialog(null, "You got a dollar! ");
         }
     }
