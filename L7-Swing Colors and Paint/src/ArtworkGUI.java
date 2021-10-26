@@ -30,17 +30,25 @@ public class ArtworkGUI {
         //Add the PaintComponent Method and create your drawing.
         public void paintComponent(Graphics g){
             super.paintComponent(g);
-            g.setColor(Color.ORANGE);
+            Color rosemary = new Color(255,150,200);
+            Color limen = new Color(105,250,150);
+            Color Akao = new Color(175,5,200);
+
+            g.setColor(limen);
 
             g.fillOval(50,50,100,50);
             g.fillOval(50,50,50,100);
             g.fillOval(0,50,100,50);
             g.fillOval(50,0,50,100);
 
-            g.setColor(Color.BLACK);
+            g.setColor(Akao);
+            g.fillOval(25, 25, 50, 50);
+            g.fillOval(75, 75, 50, 50);
+            g.fillOval(75, 25, 50, 50);
+            g.fillOval(25, 75, 50, 50);
 
-            g.drawOval(50,50,100,50);
-
+            g.setColor(rosemary);
+            g.fillOval(50, 50, 50, 50);
         }
 
 
